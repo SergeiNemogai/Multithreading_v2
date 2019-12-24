@@ -31,6 +31,7 @@ public class Main {
         }
 
         writer.write(mul.toString() + "\n" + (double) (System.currentTimeMillis() - time) / 1000);
+        // Sequential execution
         reader.close();
         reader = new BufferedReader(new FileReader("in1.txt"));
 
